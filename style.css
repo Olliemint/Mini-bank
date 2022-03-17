@@ -1,6 +1,7 @@
 .container{
     display: grid;
     place-content: center;
+    background-color: rgb(4, 177, 162);
 }
 .bank{
     display: flex;
