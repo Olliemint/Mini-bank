@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Address book</title>
+  </head>
+  <body>
+    <div class="container">
+      
+      <h1>Welcome to moringa bank</h1>
+      
+        <form id="myform">
+          <div class="bank">
+        <div>
+          <h2>Register Account</h2>
+       <label for="name">Name:</label><br>
+       <input type="text" name="name" id="name" placeholder="Name..."><br>
+       <label for="initial">Initial Deposit:</label><br>
+       <input type="number" name="initial" id="initial"><br>
+      </div>
+      <div>
+        <h2>Deposit or Withdraw</h2>
+        <label for="deposit">Deposit Amount:</label><br>
+        <input type="number" name="deposit" id="deposit"><br>
+        <label for="withdraw">Withdraw Amount:</label><br>
+        <input type="number" name="widthraw" id="widthraw"><br>
+      </div>
+    </div>
+    <button type="submit" id="btn">submit</button>
+    </form>
+    <div class="balance">
+      <h3>Current Balance:</h3>
+      <p id="balance"></p>
+    </div>
+
+
+      </div>
+      
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+
+  </body>
+</html>
