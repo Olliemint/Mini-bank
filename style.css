@@ -3,6 +3,17 @@
     place-content: center;
     background-color: rgb(4, 177, 162);
 }
+.img1{
+
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 50px;
+    width: 60px;
+    border-radius: 10px;
+    
+}
 .bank{
     display: flex;
     gap: 2%;
